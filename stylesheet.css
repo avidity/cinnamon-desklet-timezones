@@ -1,0 +1,11 @@
+.tzd-arena {
+  text-shadow: 1px 1px 2px #000;
+}
+
+.tzd-local-time-label {
+  font-size: 40pt;
+}
+
+.tzd-tz-label-name {
+  padding-right: 5px;
+}

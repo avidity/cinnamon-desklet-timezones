@@ -1,0 +1,8 @@
+{
+  "last-edited": "1370193674",
+  "dangerous": false,
+  "description": "Shows current time in configured time zones",
+  "name": "Time Zones Desklet",
+  "prevent-decorations": false,
+  "uuid": "timezones@avidity.se"
+}

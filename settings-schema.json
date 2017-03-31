@@ -1,0 +1,14 @@
+{
+    "timeFormat": {
+        "type": "entry",
+        "default": "%H:%M",
+        "description": "Format used when displaying time"
+    },
+
+    "rawTimezones": {
+        "type": "textview",
+        "description": "Avaialble timezones (in format 'name|zone')",
+        "height": 200,
+        "default": "Porto Alegre|America/Sao_Paulo\nUTC|UTC\nStockholm|Europe/Stockholm"
+    }
+}

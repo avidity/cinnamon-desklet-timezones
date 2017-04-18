@@ -1,4 +1,4 @@
-# timezones@avidity.se
+# timezones cinnamon desklet
 
 Cinnamon Desklet that shows current time in configurable timezones
 

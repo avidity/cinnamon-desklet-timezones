@@ -52,11 +52,13 @@ TimeZonesDesklet.prototype = {
 
     this._cfg.rawTimezones.split("\n").forEach(function(str) {
       let info = str.split('|');
-      global.log(info[0])
-      zones.push({
-        name: info[0],
-        zone: info[1]
-      });
+
+      if(info[0] && info[1]) {
+        zones.push({
+          name: info[0],
+          zone: info[1]
+        });
+      }
     });
     this.timezones = zones;
     this.resetTimeZoneList();

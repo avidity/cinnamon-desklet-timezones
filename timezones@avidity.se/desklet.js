@@ -111,8 +111,11 @@ TimeZonesDesklet.prototype = {
       let text = "";
       let time = now.to_timezone(GLib.TimeZone.new(tz.zone));
 
-      if(time.get_day_of_month() !== now.get_day_of_month())
+      // FIXNE: Is there a tie-operator in js? would be a bit more elegant
+      if(time.get_day_of_month() > now.get_day_of_month())
         text = "(+1) ";
+      else if(time.get_day_of_month() < now.get_day_of_month())
+        text = "(-1) ";
 
       text += time.format(format);
 
